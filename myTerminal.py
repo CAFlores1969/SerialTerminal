@@ -1,4 +1,4 @@
-from tkinter import Frame,StringVar
+from tkinter import Frame, StringVar
 import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.scrolledtext as scrolledtext
@@ -10,7 +10,7 @@ import serial.tools.list_ports
 
 '''
 def find_USB_device(USB_DEV_NAME=None):
-    # Funcion alternativa para encontrar npuertos seriales, No es usada en este app
+    # Funcion alternativa para encontrar puertos seriales, No es usada en este app
 
     myports = [tuple(p) for p in list(serial.tools.list_ports.comports())]
     print(myports)
