@@ -3,7 +3,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.scrolledtext as scrolledtext
 
-import serial
+import serial #pip install pyserial
 import time
 import threading
 import serial.tools.list_ports
